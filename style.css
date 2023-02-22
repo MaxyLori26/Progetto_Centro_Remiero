@@ -1,13 +1,13 @@
 body {
 	font-family: monospace, sans-serif;
 	margin: 0;
+	background-color: #a2bfca47;
 }
 
 header {
 	background-color: #333;
 	color: #fff;
 	text-align: center;
-	padding: 20px;
 }
 
 nav {
@@ -23,11 +23,11 @@ nav ul {
 
 nav ul li {
 	display: inline-block;
-	margin-right: 20px;
+	margin-right:10px;
 }
 
 nav ul li a {
-	color: #fff;
+	color:#fff;
 	text-decoration: none;
 }
 
