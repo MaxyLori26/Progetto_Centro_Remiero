@@ -1,0 +1,33 @@
+/* Impostazioni globali */
+body {
+    background-color: #9ebdd6;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Stili del titolo principale */
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  /* Stili dei titoli di sezione */
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  /* Stili dei paragrafi */
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  a{
+    text-decoration: none;
+  }
+  
