@@ -5,13 +5,13 @@ body {
 
 header {
 	background-color: #333;
-	color: #ffffff;
+	color: #fff;
 	text-align: center;
 	padding: 20px;
 }
 
 nav {
-	background-color: #ccc;
+	background-color: #0c4d4d;
 	padding: 10px;
 }
 
@@ -27,7 +27,7 @@ nav ul li {
 }
 
 nav ul li a {
-	color: #333;
+	color: #fff;
 	text-decoration: none;
 }
 
