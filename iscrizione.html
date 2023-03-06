@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Iscrizione al Centro Remiero</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Iscrizione al <a href="index.html">Centro Remiero</a></h1>
+	</header>
+	<main>
+		<form>
+			<label for="nome">Nome:</label>
+			<input type="text" id="nome" name="nome" required>
+
+			<label for="cognome">Cognome:</label>
+			<input type="text" id="cognome" name="cognome" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="telefono">Telefono:</label>
+			<input type="tel" id="telefono" name="telefono" required>
+
+			<label for="nascita">Data di nascita:</label>
+			<input type="date" id="nascita" name="nascita" required>
+
+			<label for="imbarcazione">Tipo di imbarcazione preferita:</label>
+			<select id="imbarcazione" name="imbarcazione">
+				<option value="singolo">Singolo</option>
+				<option value="doppio">Doppio</option>
+				<option value="quattro">Quattro</option>
+				<option value="otto">Otto</option>
+			</select>
+
+			<label for="livello">Livello di esperienza:</label>
+			<input type="radio" id="principiante" name="livello" value="principiante" checked>
+			<label for="principiante">Principiante</label>
+			<input type="radio" id="intermedio" name="livello" value="intermedio">
+			<label for="intermedio">Intermedio</label>
+			<input type="radio" id="avanzato" name="livello" value="avanzato">
+			<label for="avanzato">Avanzato</label>
+
+			<input type="submit" value="Iscriviti">
+		</form>
+	</main>
+    <script src="iscrizione.js"></script>
+</body>
+</html>
