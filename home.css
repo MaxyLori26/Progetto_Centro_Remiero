@@ -1,7 +1,6 @@
 body {
 	font-family: monospace, sans-serif;
-	margin: 0;
-	background-color: #0c4d4d;
+	margin: 0%;
     text-align: center;
 }
 header{
@@ -9,20 +8,48 @@ header{
     text-align:center;
     font-size:1.7em;
     color: white;
-    margin-top: 5%;
+    margin: 0%;
+    background-color: #0c4d4d;
 }
 #divimg{
-    height: 27%;
+    width:auto;
     background-color: #0c4d4d
 }
-main{
+#img1{
+    width:100%;
+}
+#divmain{
+
     height: 77%;
-    background-color: red;
 }
 footer{
     height: 10%;
+    width: 100%;
     background-color: salmon;
 }
 h2{
     border-bottom: none;
+    margin: 0%;
+    padding-bottom:2%;
+}
+#diva{
+    width:70%;
+    height: 50%;
+    background-color: #0c4d4d;
+}
+#divt{
+    width:30%;
+    height:50%;
+    background-color: aqua;
+    float: right;
+}
+p {
+    margin:0%;
+}
+h3 {
+    margin: 0%;
+}
+h1{
+    margin: 0%;
+    padding-top: 5%;
 }
