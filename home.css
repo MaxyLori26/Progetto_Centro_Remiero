@@ -53,6 +53,8 @@ h1{
 #diva{
     background-color: #0c4d4d;
     grid-column: 1;
+    grid-row-start: 1; 
+    grid-row-end: span 2; 
 }
 
 #divt{
@@ -61,4 +63,8 @@ h1{
 }
 .div-foto {
     margin: 0%;
+}
+
+.foto-p {
+    width: 100%;
 }
