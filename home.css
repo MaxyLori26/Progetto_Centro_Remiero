@@ -13,7 +13,7 @@ header{
 }
 #divimg{
     width:auto;
-    background-color: #0c4d4d
+    background-color: #0c4d4d;
 }
 #img1{
     width:100%;
@@ -23,8 +23,10 @@ header{
     height: 77%;
 }
 footer{
-    height: 10%;
+    height: 80px;
     width: 100%;
+    color: #0c4d4d;
+    padding-top: 20px;
 }
 h2{
     border-bottom: none;
@@ -57,12 +59,15 @@ h1{
     align-items: center;
     justify-content: center;
     display: flex;
-    font-size: 30px;
+    font-size: 40px;
+    color: white;
+    text-align: left;
 }
 
 #divt{
-    background-color: aqua;
+    background-color: white;
     grid-column: 2;
+    color: #0c4d4d;
 }
 .div-foto {
     margin: 0%;
@@ -70,4 +75,7 @@ h1{
 
 .foto-p {
     width: 100%;
+}
+ul{
+    padding-left: 0%;
 }
