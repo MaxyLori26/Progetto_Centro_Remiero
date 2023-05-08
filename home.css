@@ -9,11 +9,11 @@ header{
     font-size:1.7em;
     color: white;
     margin: 0%;
-    background-color: #0c4d4d;
+    background-color: #0068A4;
 }
 #divimg{
     width:auto;
-    background-color: #0c4d4d;
+    background-color: #0068A4;
 }
 #img1{
     width:100%;
@@ -25,7 +25,7 @@ header{
 footer{
     height: 80px;
     width: 100%;
-    color: #0c4d4d;
+    color: #0068A4;
     padding-top: 20px;
 }
 h2{
@@ -52,7 +52,7 @@ h1{
 }
 
 #diva{
-    background-color: #0c4d4d;
+    background-color: #0068A4;
     grid-column: 1;
     grid-row-start: 1; 
     grid-row-end: span 2; 
@@ -67,7 +67,7 @@ h1{
 #divt{
     background-color: white;
     grid-column: 2;
-    color: #0c4d4d;
+    color: #0068A4;
 }
 .div-foto {
     margin: 0%;
